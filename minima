@@ -1,0 +1,5 @@
+v1 := p1 + $1
+p1 := v1
+ifeq p1 v1 4 
+p0 := p1
+ret p0
